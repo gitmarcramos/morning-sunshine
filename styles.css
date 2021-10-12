@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 400px;
+    margin: 2rem auto;
+}
+
+body {
+    font-size: 10px;
+    font-family: 'Comic Neue', cursive;
+}
+
+.title {
+    margin: 1rem auto;
+    font-size: 3.8rem;
+    display: inline-block;
+}
+
+.score {
+    position: absolute;
+    top: 3rem;
+    right: 3rem;
+    font-size: 1.2rem;
+}
+
+
+p {
+    font-size: 1.6rem;
+    color: green;
+    max-width: 65ch;
+    text-align: center;
+}
+
+.x-space {
+    margin-top: 2rem;
+}
+
+button {
+    margin: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-height: 100vh;
+}
+
+#page-1-container img {
+    width: 300px;
+}
+
+.img-container {
+    display: flex;
+    width: 70%;
+    margin: 2rem auto;
+    gap: 8px
+}
+
+.img-container img {
+    object-fit: cover;
+    width: 25%;
+    min-height: 300px;
+    margin: 0 auto;
+}
+
+.next-btn {
+    position: absolute;
+    bottom: 3rem;
+    right: 3rem;
+    font-size: 1.6rem;
+}
+
+.prev-btn {
+    position: absolute;
+    bottom: 3rem;
+    left: 3rem;
+    font-size: 1.6rem;
+}
+
+.modal-success {
+    width: 50vw;
+    height: 50vh;
+    background-color: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 200;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+span{
+    font-size: 16px;
+    margin-bottom: 1rem;
+}
+
+.close{
+    padding: 4px 8px;
+    width: 200px;
+    font-family: 'Comic Neue', cursive;
+}
+
+
+
+.booo{
+    width: 50vw;
+    height: 50vh;
+    background-color: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 200;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+iframe {
+    border: none
+}
+
+.inactive{
+    display: none;
+}

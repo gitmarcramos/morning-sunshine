@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morning Sunshine</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+    <script type="module" src="app.js"></script>
+</head>
+
+<body>
+
+    <div id="page-12-container" class="container">
+        <h2 class="title">Guess the album/artist</h2>
+        <img src="/assets/covers/cover-4.jpg" alt="">
+        <input type="text" data-page="4" id="cover">
+        <button>Guess!!</button>
+    </div>
+
+
+    <div class="modal-success inactive">
+        <span>Hell yeah, good answer!!</span>
+        <iframe src="https://giphy.com/embed/s2qXK8wAvkHTO" width="300" height="200" frameBorder="0" class="giphy-embed"
+            allowFullScreen></iframe>
+        <a class="next-btn next-count" href="page-13.html">Next page</a>
+    </div>
+
+    <div class="booo inactive">
+        <span>No no no no no</span>
+        <iframe src="https://giphy.com/embed/nKN7E76a27Uek" width="300" height="200"></iframe>
+        <button class="retry">TRY AGAIN</button>
+    </div>
+
+
+    <!-- <a class="next-btn next-count" href="page-13.html">Next page</a> -->
+    <a class="prev-btn previous-count" href="page-11.html">Previous page</a>
+
+</body>
+
+</html>
