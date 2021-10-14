@@ -7,6 +7,7 @@
 img {
     width: 400px;
     margin: 2rem auto;
+    border: 1px solid grey;
 }
 
 body {
@@ -20,12 +21,7 @@ body {
     display: inline-block;
 }
 
-.score {
-    position: absolute;
-    top: 3rem;
-    right: 3rem;
-    font-size: 1.2rem;
-}
+
 
 
 p {
@@ -60,7 +56,7 @@ button {
     display: flex;
     width: 70%;
     margin: 2rem auto;
-    gap: 8px
+    gap: 8px;
 }
 
 .img-container img {

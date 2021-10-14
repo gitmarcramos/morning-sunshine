@@ -35,7 +35,7 @@ const covers = [
   { id: 14, band: "michael jackson", name: "dangerous" },
   { id: 15, band: "dr dre", name: "2001" },
   { id: 16, band: "alanis morissette", name: "jagged little pill" },
-  { id: 17, band: "pink floyd", name: "whish you were here" },
+  { id: 17, band: "pink floyd", name: "wish you were here" },
 ];
 
 const cover = document.querySelector("#cover");
